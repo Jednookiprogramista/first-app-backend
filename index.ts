@@ -15,9 +15,9 @@ app.use(json());
 
 // Routes
 
-app.get('/',async(req,res)=> {
-         throw new ValidationError('Wow');
-})
+// app.get('/',async(req,res)=> {
+//          throw new ValidationError('Wow');
+// })
 
 app.use(handleError);
 
