@@ -1,16 +1,39 @@
-import express, { json } from "express";
+import express  from "express";
 import cors from 'cors';
 import 'express-async-errors';
 import {handleError, ValidationError} from "./utils/errors";
+const cookieParser = require('cookie-parser');
+import {authRoutes} from "./routes/authentication";
+import {userRoutes} from "./routes/users";
+import { postRoutes } from "./routes/posts";
+import {commentRoutes} from "./routes/comments";
+import {likeRoutes} from "./routes/likes";
+
 
 const app = express()
 
+
+app.use(express.json());
 app.use(cors({
     origin: 'http://localhost:3000',
 
-}));
+}))
+app.use(cookieParser)
 
-app.use(json());
+app.use('/api/users',userRoutes)
+app.use('/api/posts',postRoutes)
+app.use('/api/comments',commentRoutes)
+app.use('/api/likes',likeRoutes)
+app.use('/api/authentication',authRoutes)
+
+
+
+
+
+
+
+
+
 
 
 // Routes

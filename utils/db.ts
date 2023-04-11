@@ -1,9 +1,12 @@
-import {createPool} from "mysql2/promise";
 
-export const pool = createPool({
-        host: 'localhost',
-        user: 'root',
-        database: 'first-app',
-        namedPlaceholders: true,
-        decimalNumbers: true,
-})
+
+import { createPool, Pool } from "mysql2";
+
+export const pool: Pool = createPool({
+        host: "localhost",
+        user: "root",
+        password: "password",
+        database: "my_database",
+});
+
+export const db = pool.promise();
