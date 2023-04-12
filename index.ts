@@ -1,4 +1,4 @@
-import express  from "express";
+import express, {Request, Response} from "express";
 import cors from 'cors';
 import 'express-async-errors';
 import {handleError, ValidationError} from "./utils/errors";
@@ -20,6 +20,10 @@ app.use(cors({
 }))
 app.use(cookieParser)
 
+
+// Routes
+
+
 app.use('/api/users',userRoutes)
 app.use('/api/posts',postRoutes)
 app.use('/api/comments',commentRoutes)
@@ -36,11 +40,11 @@ app.use('/api/authentication',authRoutes)
 
 
 
-// Routes
 
-// app.get('/',async(req,res)=> {
-//          throw new ValidationError('Wow');
-// })
+
+app.get('/',async(req :Request,res : Response)=> {
+         throw new ValidationError('Wow');
+})
 
 app.use(handleError);
 
