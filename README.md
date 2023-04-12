@@ -24,25 +24,31 @@ Welcome to my social media app **MyWall**, created using cutting-edge technologi
 
 Gif
 
-![](C:\Users\Admin\Desktop\first-app\Animation.gif)
+![Animation](https://user-images.githubusercontent.com/98560465/231579929-d0563218-f3b1-4839-be0e-f8f2ee73152f.gif)
+
 
 Registration
 
-![](C:\Users\Admin\Desktop\first-app\registration.PNG)
+![registration](https://user-images.githubusercontent.com/98560465/231579977-df9c4c6d-0215-4643-8711-37adfcf402cb.PNG)
+
 
 Login
-![](C:\Users\Admin\Desktop\first-app\login.PNG)
+
+![login](https://user-images.githubusercontent.com/98560465/231580012-2cb78acf-f8f5-454a-8a79-281d6cd92e65.PNG)
 
 Home
-![](C:\Users\Admin\Desktop\first-app\home.PNG)
+
+![home](https://user-images.githubusercontent.com/98560465/231580051-849d0cce-4c25-4688-80d4-3491ad8d180e.PNG)
 
 Comments
 
-![](C:\Users\Admin\Desktop\first-app\comments.PNG)
+![comments](https://user-images.githubusercontent.com/98560465/231580092-3d6ec976-6c48-4fcb-bc0b-bc105edb042b.PNG)
+
 
 Profile
-![](C:\Users\Admin\Desktop\first-app\profile.PNG)
-![](C:\Users\Admin\Desktop\first-app\profile2.PNG)
+
+![profile](https://user-images.githubusercontent.com/98560465/231580142-2c1ddc9f-e30c-4514-9383-2507b4c94a4f.PNG)
+![profile2](https://user-images.githubusercontent.com/98560465/231580171-3c40c97a-2d0a-499c-984c-8b0574f26e06.PNG)
 
 
 ### What did I do and what didn't. 🤔
